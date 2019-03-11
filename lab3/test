@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in $( ls /proc/ |grep "[[:digit:]]")
+do
+echo $i
+readlink /proc/$i/exe
+done

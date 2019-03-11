@@ -1,0 +1,7 @@
+#!/bin/bash
+
+nrswitches=$(grep -E -h -s -i "nr_switches(.+)" /proc/2/status | grep -o "[0-9]\+")
+
+execruntime=$(grep -E -h -s -i "se.sum_exec_runtime(.+)" /proc/2/status | grep -o "[0-9]\+\.[0-9]\+")
+
+awk '{printf "%.2f \n", $execruntime/$nrswitches}'

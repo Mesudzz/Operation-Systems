@@ -1,0 +1,64 @@
+2705:/usr/bin/gnome-keyring-daemon --daemonize --login
+2747:/usr/libexec/gnome-session-binary --session gnome-classic
+2754:dbus-launch --sh-syntax --exit-with-session
+2755:/bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+2826:/usr/libexec/gvfsd
+2831:/usr/libexec/gvfsd-fuse /run/user/1001/gvfs -f -o big_writes
+2923:/usr/bin/ssh-agent /bin/sh -c exec -l /bin/bash -c "env GNOME_SHELL_SESSION_MODE=classic gnome-session --session gnome-classic"
+2942:/usr/libexec/at-spi-bus-launcher
+2947:/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+2950:/usr/libexec/at-spi2-registryd --use-gnome-session
+2972:/usr/bin/gnome-shell
+2980:/usr/bin/pulseaudio --start --log-target=syslog
+2995:ibus-daemon --xim --panel disable
+3000:/usr/libexec/ibus-dconf
+3004:/usr/libexec/ibus-x11 --kill-daemon
+3010:/usr/libexec/gnome-shell-calendar-server
+3013:/usr/libexec/xdg-permission-store
+3021:/usr/libexec/mission-control-5
+3023:/usr/libexec/gvfs-udisks2-volume-monitor
+3028:/usr/libexec/goa-daemon
+3073:/usr/libexec/evolution-source-registry
+3081:/usr/libexec/goa-identity-service
+3105:/usr/libexec/gvfs-mtp-volume-monitor
+3110:/usr/libexec/gvfs-gphoto2-volume-monitor
+3118:/usr/libexec/gvfs-goa-volume-monitor
+3123:/usr/libexec/gvfs-afc-volume-monitor
+3134:/usr/libexec/gnome-settings-daemon
+3151:nautilus-desktop --force
+3155:/usr/libexec/gsd-printer
+3173:/usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+3201:abrt-applet
+3203:/usr/bin/seapplet
+3211:/usr/libexec/tracker-miner-apps
+3214:/usr/libexec/tracker-miner-fs
+3220:/usr/libexec/tracker-extract
+3227:/usr/libexec/evolution/evolution-alarm-notify
+3251:/usr/libexec/tracker-miner-user-guides
+3267:/usr/bin/gnome-software --gapplication-service
+3282:/usr/libexec/tracker-store
+3290:/usr/bin/prlcc
+3335:/usr/bin/prldnd
+3336:/usr/bin/prlcp
+3337:/usr/bin/prlsga
+3338:/usr/bin/prlshprof
+3343:/usr/libexec/evolution-calendar-factory
+3351:/usr/libexec/ibus-engine-simple
+3489:/usr/libexec/dconf-service
+3495:/usr/libexec/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx3343x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/3343/2
+3577:/usr/libexec/evolution-addressbook-factory
+3596:/usr/libexec/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx3343x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/3343/3
+3702:/usr/libexec/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx3577x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/3577/2
+3738:/usr/libexec/gvfsd-burn --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+5599:/usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+5620:/usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/7
+6026:/usr/libexec/gvfsd-metadata
+8225:/usr/bin/gedit --gapplication-service
+8942:/usr/bin/nautilus --gapplication-service
+10460:/usr/libexec/gnome-terminal-server
+10466:gnome-pty-helper
+10467:bash
+16801:/bin/bash ./1.bash
+16802:ps -u user -o pid,command
+16803:tail -n +2
+16804:sed -r s/\s*([0-9]+)\s(.+)$/\1:\2/

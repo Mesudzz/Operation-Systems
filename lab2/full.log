@@ -1,0 +1,293 @@
+INFORMATION:
+[    10.954] (info) The server relies on udev to provide the list of input devices.
+[    10.954] (info) Loader magic: 0x5653af7ed020
+[    10.954] (info) Module ABI versions:
+[    10.955] (info) LoadModule: "glx"
+[    10.961] (info) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    10.962] (info) Module glx: vendor="X.Org Foundation"
+[    10.962] (info) Exporting typical set of GLX visuals
+[    10.962] (info) LoadModule: "prlvideo"
+[    10.962] (info) Loading /usr/lib64/xorg/modules/drivers/prlvideo_drv.so
+[    10.977] (info) Module prlvideo: vendor="Parallels Inc."
+[    10.978] (info) PRLVIDEO: Sharing 0 entity with other screens
+[    10.978] (info) PRLVIDEO: Frame buffer struct was created
+[    10.978] (info) PRLCONTROL: /proc/driver/prl_vtg opened
+[    10.978] (info) PRLVIDEO: VESA PCI probe for Screen 0 finished successfully.
+[    10.978] (info) PRLVIDEO: PRE initializing VESA Screen 0 . . .
+[    10.978] (info) PRLVIDEO(0): Configuring display modes for display Parallels Monitor . . .
+[    10.978] (info) Loading sub module "ramdac"
+[    10.978] (info) LoadModule: "ramdac"
+[    10.978] (info) Module "ramdac" already built-in
+[    10.978] (info) PRLVIDEO(0): Total Memory: 1024 64KB banks (65536kB)
+[    10.978] (info) PRLVIDEO(0): Searching for matching VESA mode(s):
+[    10.978] (info) PRLVIDEO(0): Validating VESA modes (maxWidth=2560, maxHeight=1440, mapSize=65536Kb) . . .
+[    10.978] (info) PRLVIDEO(0): Parallels Monitor: Using default hsync range of 31.50-48.00 kHz
+[    10.978] (info) PRLVIDEO(0): Parallels Monitor: Using default vrefresh range of 50.00-70.00 Hz
+[    10.978] (info) PRLVIDEO(0): Parallels Monitor: Using default maximum pixel clock of 65.00 MHz
+[    10.978] (info) PRLVIDEO(0): Found 12 valid VESA modes
+[    10.978] (info) PRLVIDEO(0): Parallels Monitor: Using hsync range of 31.50-48.00 kHz
+[    10.978] (info) PRLVIDEO(0): Parallels Monitor: Using vrefresh range of 50.00-70.00 Hz
+[    10.978] (info) PRLVIDEO(0): Parallels Monitor: Using maximum pixel clock of 65.00 MHz
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "2560x1440" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1920x1200" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1600x1200" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1680x1050" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1400x1050" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1280x1024" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1440x900" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1280x960" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Not using built-in mode "1280x800" (width too large for virtual size)
+[    10.978] (info) PRLVIDEO(0): Found 3 valid VESA modes
+[    10.978] (info) PRLVIDEO: Added initial display mode 1024x768
+[    10.978] (info) PRLVIDEO: Added initial display mode 800x600
+[    10.978] (info) PRLVIDEO: Added initial display mode 640x480
+[    10.978] (info) PRLVIDEO(0): Modeline "1024x768"x59.9   64.20  1024 1077 1183 1342  768 771 775 798 -hsync +vsync (47.8 kHz zPb)
+[    10.978] (info) PRLVIDEO(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz zb)
+[    10.978] (info) PRLVIDEO(0): Modeline "640x480"x59.9   23.98  640 657 720 800  480 483 487 500 -hsync +vsync (30.0 kHz zb)
+[    10.978] (info) PRLVIDEO(0): VESA modes validation success
+[    10.978] (info) PRLVIDEO(0): Set VESA default refresh to FALSE.
+[    10.978] (info) Loading sub module "fb"
+[    10.978] (info) LoadModule: "fb"
+[    10.979] (info) Loading /usr/lib64/xorg/modules/libfb.so
+[    10.984] (info) Module fb: vendor="X.Org Foundation"
+[    10.984] (info) PRLVIDEO: Initializing Crtcs...
+[    10.984] (info) PRLVIDEO: Screen size Min {0x0}, Max {8192x8192}.
+[    10.984] (info) PRLVIDEO: Crtcs initialized.
+[    10.984] (info) PRLVIDEO: Initializing Outputs...
+[    10.984] (info) PRLVIDEO(0): Output Virtual1 using monitor section Parallels Monitor
+[    10.984] (info) PRLVIDEO(0): Output Virtual2 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual3 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual4 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual5 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual6 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual7 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual8 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual9 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual10 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual11 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual12 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual13 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual14 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual15 has no monitor section
+[    10.984] (info) PRLVIDEO(0): Output Virtual16 has no monitor section
+[    10.984] (info) PRLVIDEO: Outputs initialized.
+[    10.984] (info) PRLVIDEO: Initializing Crtc/Output configuration...
+[    10.984] (info) PRLVIDEO(0): Printing probed modes for output Virtual1
+[    10.984] (info) PRLVIDEO(0): Modeline "1024x768"x59.9   64.20  1024 1077 1183 1342  768 771 775 798 -hsync +vsync (47.8 kHz UP)
+[    10.984] (info) PRLVIDEO(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz)
+[    10.984] (info) PRLVIDEO(0): Modeline "640x480"x59.9   23.98  640 657 720 800  480 483 487 500 -hsync +vsync (30.0 kHz)
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual2
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual3
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual4
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual5
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual6
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual7
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual8
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual9
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual10
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual11
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual12
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual13
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual14
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual15
+[    10.984] (info) PRLVIDEO(0): EDID for output Virtual16
+[    10.984] (info) PRLVIDEO(0): Output Virtual1 connected
+[    10.984] (info) PRLVIDEO(0): Output Virtual2 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual3 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual4 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual5 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual6 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual7 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual8 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual9 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual10 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual11 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual12 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual13 disconnected
+[    10.984] (info) PRLVIDEO(0): Output Virtual14 disconnected
+[    10.985] (info) PRLVIDEO(0): Output Virtual15 disconnected
+[    10.985] (info) PRLVIDEO(0): Output Virtual16 disconnected
+[    10.985] (info) PRLVIDEO(0): Using user preference for initial modes
+[    10.985] (info) PRLVIDEO(0): Output Virtual1 using initial mode 1024x768 +0+0
+[    10.985] (info) PRLVIDEO: VESA Screen 0 was PRE initialized.
+[    10.985] (info) PRLVIDEO: Initializing VESA Screen 0 . . .
+[    10.985] (info) PRLVIDEO: Mapping frame buffer . . .
+[    10.986] (info) PRLVIDEO: Framebuffer (/proc/driver/prl_vtg) successfully mapped by Screen 0 at:
+[    10.990] (info) PRLVIDEO: DGA initialized for Screen 0
+[    10.991] (info) PRLVIDEO(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    10.993] (info) PRLCONTROL: Compiled for 1.19.0 XServer
+[    10.993] (info) PRLCONTROL: /proc/driver/prl_tg opened
+[    10.993] (info) PRLCONTROL: ParallelsControl version 1.0 initalized
+[    10.994] (info) PRLCONTROL: OpenGL supported
+[    10.994] (info) PRLCONTROL: This message is only for compiz starter script:
+[    10.994] (info) PRLCONTROL: Compositing supported
+[    10.994] (info) PRLCONTROL: Video RAM: 65536 kByte
+[    10.994] (info) PRLCONTROL: Multiheads supported
+[    10.994] (info) PRLCONTROL: Randr's private data available
+[    10.994] (info) PRLCOHERENCE: Coherence initialized
+[    10.994] (info) PRLXINERAMA: Parallels Xinerama initialized
+[    10.994] (info) PRLVIDEO: VESA link to Open Tools Gate was opened.
+[    10.994] (info) PRLVIDEO: Cursor initialized.
+[    10.994] (info) PRLVIDEO: VESA Screen 0 was initialized.
+[    11.009] (info) SELinux: Disabled by boolean
+[    11.011] (info) PRL-GLX: Compiled for 1.19.0 XServer
+[    11.011] (info) PRL-GLX: Allowed 2 X visuals
+[    11.011] (info) PRL-GLX:  vid=21 class=4
+[    11.011] (info) PRL-GLX:  vid=64 class=4
+[    11.011] (info) PRL-GLX: Allowed 2 X depths
+[    11.011] (info) PRL-GLX:  depth=24 vid=21
+[    11.011] (info) PRL-GLX:  depth=32 vid=64
+[    11.011] (info) PRL-GLX: Opened /proc/driver/prl_vtg
+[    11.011] (info) PRL-GLX: GLX Parallels screen 0 initialized
+[    11.011] (info) PRL-GLX: Extension GLX added
+[    11.011] (info) PRL-GLX: Extension alias SGI-GLX added
+[    11.011] (info) PRL-GLX: Extension alias PRL-GLX added
+[    11.011] (info) PRL-GLX: Extension alias AIGLX added
+[    11.011] (info) PRL-GLX: Available 6 GLX visuals
+[    11.011] (info) PRL-GLX:  0x5653b067c210) visualID=21, fbconfigID=101, db=1, rgbBits=24, depthBits=24, stencilBits=8, visualType=8003 tex_tgt=6
+[    11.011] (info) PRL-GLX:  0x5653b067c2f0) visualID=64, fbconfigID=102, db=1, rgbBits=32, depthBits=24, stencilBits=8, visualType=8003 tex_tgt=6
+[    11.011] (info) PRL-GLX:  0x5653b067c3d0) visualID=21, fbconfigID=103, db=0, rgbBits=24, depthBits=24, stencilBits=8, visualType=8002 tex_tgt=6
+[    11.011] (info) PRL-GLX:  0x5653b067c4b0) visualID=64, fbconfigID=104, db=0, rgbBits=32, depthBits=24, stencilBits=8, visualType=8002 tex_tgt=6
+[    11.011] (info) PRL-GLX:  0x5653b067eac0) visualID=21, fbconfigID=105, db=0, rgbBits=24, depthBits=24, stencilBits=8, visualType=8003 tex_tgt=6
+[    11.011] (info) PRL-GLX:  0x5653b067eba0) visualID=64, fbconfigID=106, db=0, rgbBits=32, depthBits=24, stencilBits=8, visualType=8003 tex_tgt=6
+[    11.011] (info) PRLVIDEO: Reset VESA video mode...
+[    11.011] (info) PRLVIDEO: Set Crtc 0 video mode (1024x768, x=0, y=0)...
+[    11.011] (info) PRLVIDEO: Mode: 1024x768
+[    11.011] (info) PRLCONTROL: Heads configuration (max=3, connected=00000001)
+[    11.012] (info) PRLVIDEO: Set Head 0 mode 1024x768
+[    11.012] (info) PRLVIDEO: VESA mode were restored.
+[    11.013] (info) PRLCONTROL: Share states thread started
+[    11.013] (info) PRLVIDEO: Entered into VT.
+[    11.013] (info) PRLVIDEO: RMode: 1024x768, dw 1024, bpp: 32, depth: 24, head=0, base=0x7f6085fb5000
+[    11.016] (info) PRLXINERAMA: Xinerama Virtual Screen 0 (1024x768, x=0, y=0)
+[    11.016] (info) PRLVIDEO(0): Setting screen physical size to 270 x 203
+[    11.411] (info) config/udev: Adding input device Power Button (/dev/input/event0)
+[    11.411] (info) LoadModule: "evdev"
+[    11.412] (info) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[    11.436] (info) Module evdev: vendor="X.Org Foundation"
+[    11.436] (info) Using input driver 'evdev' for 'Power Button'
+[    11.436] (info) evdev: Power Button: Configuring as keyboard
+[    11.436] (info) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    11.438] (info) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    11.438] (info) Using input driver 'evdev' for 'Sleep Button'
+[    11.438] (info) evdev: Sleep Button: Configuring as keyboard
+[    11.438] (info) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    11.439] (info) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    11.439] (info) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    11.439] (info) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    11.439] (info) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+[    11.441] (info) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event3)
+[    11.441] (info) LoadModule: "prlmouse"
+[    11.441] (info) Loading /usr/lib64/xorg/modules/input/prlmouse_drv.so
+[    11.442] (info) Module prlmouse: vendor="Parallels Inc."
+[    11.442] (info) Parallels Mouse: Module was plugged
+[    11.442] (info) Using input driver 'prlmouse' for 'ImExPS/2 Generic Explorer Mouse'
+[    11.443] (info) Parallels Mouse: Initializing (flags=4 (server_fd=0) fd=-1)...
+[    11.443] (info) Parallels Mouse: Link to Open Tools Gate was opened
+[    11.460] (info) Parallels Mouse: Module common options were read
+[    11.460] (info) Parallels Mouse: Module was initialized
+[    11.460] (info) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 9)
+[    11.460] (info) Parallels Mouse: Device was initialized
+[    11.460] (info) Parallels Mouse: Mouse protocol detected: Evdev
+[    11.460] (info) Parallels Mouse: Sliding Mouse enabling code:0 proto:1
+[    11.460] (info) Parallels Mouse: Device was switched on
+[    11.461] (info) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[    11.461] (info) No input driver specified, ignoring this device.
+[    11.461] (info) This device may have been added with another device file.
+[    11.462] (info) config/udev: Adding input device PC Speaker (/dev/input/event4)
+[    11.462] (info) No input driver specified, ignoring this device.
+[    11.462] (info) This device may have been added with another device file.
+[    12.609] (info) Read gdm (/sbin/nologin) settings from /var/lib/gdm ...
+[    12.740] (info) PRLCONTROL: GLPBuffer(0x5653b08cbdd0, hpbuf=5BAB6BB8, pid=1959, GLXDrawPtr=0x5653b08cbc70 (id=8388612), DrawPtr=0x5653b08cba90 (id=8388611), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DD) created
+[    12.754] (info) PRLCONTROL: GLPBuffer(0x5653b08cbdd0, hpbuf=5BAB6BB8, tTgt=20DD) destroyed
+[    13.240] (info) PRLCONTROL: GLPBuffer(0x5653b08cbda0, hpbuf=5BAB6BB8, pid=1989, GLXDrawPtr=0x5653b08cbc20 (id=6291461), DrawPtr=0x5653b08bc2c0 (id=6291459), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DD) created
+[    13.245] (info) PRLCONTROL: GLPBuffer(0x5653b08cbda0, hpbuf=5BAB6BB8, tTgt=20DD) destroyed
+[    13.250] (info) PRLCONTROL: GLPBuffer(0x5653b08be3a0, hpbuf=5BAB6BB8, pid=1989, GLXDrawPtr=0x5653b08cbc20 (id=6291466), DrawPtr=0x5653b08bc210 (id=6291464), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DD) created
+[    13.619] (info) PRLCONTROL: Window manager detected
+[    13.619] (info) PRLCONTROL: Composite overlay window (DrawPtr=0x5653b0966b50 (id=99)) detected
+[    13.623] (info) PRLVIDEO: Use HardWare cursor.
+[    15.485] (info) PRLCONTROL: GLPBuffer(0x5653b09acb90, hpbuf=5BAB6BB9, pid=1989, GLXDrawPtr=0x5653b09aca10 (id=6291466), DrawPtr=0x5653b08bb140 (id=6291468), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DC) created
+[    15.485] (info) PRLCONTROL: OpenGL Composite overlay detected (DrawPtr=0x5653b08bb140 (id=6291468), GLXDrawPtr=0x5653b09aca10 (id=6291466)).
+[    15.485] (info) PRLCONTROL: OpenGL Compositing enabled.
+[   153.879] (info) PRLCONTROL: OpenGL Composite overlay lost (DrawPtr=0x5653b08bb140 (id=6291468), GLXDrawablePtr=0x5653b09aca10 (id=6291466)).
+[   153.879] (info) PRLCONTROL: OpenGL Compositing disabled.
+[   153.883] (info) PRLCONTROL: GLPBuffer(0x5653b09acb90, hpbuf=5BAB6BB9, tTgt=20DC) destroyed
+[   153.883] (info) PRLCONTROL: GLPBuffer(0x5653b08be3a0, hpbuf=5BAB6BB8, tTgt=20DD) destroyed
+[   153.884] (info) PRLCONTROL: Composite overlay window lost
+[   153.892] (info) PRLCONTROL: Window manager lost
+[   153.998] (info) Read user (/bin/bash) settings from /home/user ...
+[   154.003] (info) Parse '/home/user/.config/monitors.xml'...
+[   154.003] (info) Found user resolution {1440x900}
+[   154.003] (info) PRLVIDEO: Added display mode 1440x900
+[   154.003] (info) Interactive user session detected
+[   154.003] (info) PRLVIDEO: Display modes initialization:
+[   154.003] (info) PRLVIDEO: Added display mode 2560x1440
+[   154.003] (info) PRLVIDEO: Added display mode 1920x1200
+[   154.003] (info) PRLVIDEO: Added display mode 1600x1200
+[   154.003] (info) PRLVIDEO: Added display mode 1680x1050
+[   154.003] (info) PRLVIDEO: Added display mode 1400x1050
+[   154.003] (info) PRLVIDEO: Added display mode 1280x1024
+[   154.003] (info) PRLVIDEO: Added display mode 1280x960
+[   154.003] (info) PRLVIDEO: Added display mode 1280x800
+[   154.003] (info) PRLVIDEO: Preferred modes list from xorg conf:
+[   154.003] (info) PRLVIDEO:  1024x768
+[   154.003] (info) PRLVIDEO:  800x600
+[   154.003] (info) PRLVIDEO:  640x480
+[   154.003] (info) PRLVIDEO: Screen size Min {0x0}, Max {2560x1440}.
+[   154.003] (info) PRLVIDEO: Randr modes reset done.
+[   154.003] (info) PRLVIDEO(0): Modeline "1024x768"x59.9   64.20  1024 1077 1183 1342  768 771 775 798 -hsync +vsync (47.8 kHz UP)
+[   154.003] (info) PRLVIDEO(0): Modeline "2560x1440"x60.0  312.48  2560 2747 3025 3490  1440 1443 1448 1493 -hsync +vsync (89.5 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1920x1200"x60.0  193.47  1920 2050 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1600x1200"x60.0  161.23  1600 1709 1880 2160  1200 1203 1207 1245 -hsync +vsync (74.6 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1680x1050"x60.0  147.14  1680 1787 1966 2252  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1400x1050"x60.0  122.57  1400 1489 1638 1876  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1280x1024"x59.9  109.09  1280 1361 1496 1712  1024 1027 1034 1063 -hsync +vsync (63.7 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1440x900"x60.0  107.02  1440 1524 1675 1910  900 903 909 934 -hsync +vsync (56.0 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1280x960"x60.0  101.94  1280 1358 1493 1706  960 963 967 996 -hsync +vsync (59.8 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "1280x800"x60.0   83.80  1280 1348 1481 1682  800 803 809 831 -hsync +vsync (49.8 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz)
+[   154.003] (info) PRLVIDEO(0): Modeline "640x480"x59.9   23.98  640 657 720 800  480 483 487 500 -hsync +vsync (30.0 kHz)
+[   154.555] (info) PRLCONTROL: GLPBuffer(0x5653b0991e60, hpbuf=5BAB6BB8, pid=2972, GLXDrawPtr=0x5653b0991ce0 (id=10485765), DrawPtr=0x5653b09771f0 (id=10485763), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DD) created
+[   154.560] (info) PRLCONTROL: GLPBuffer(0x5653b0991e60, hpbuf=5BAB6BB8, tTgt=20DD) destroyed
+[   154.564] (info) PRLCONTROL: GLPBuffer(0x5653b0991e60, hpbuf=5BAB6BB8, pid=2972, GLXDrawPtr=0x5653b0985a90 (id=10485770), DrawPtr=0x5653b0991ce0 (id=10485768), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DD) created
+[   154.582] (info) PRLVIDEO: Set Crtc screen size {1024x768} -> {1440x900}...
+[   154.582] (info) PRLVIDEO: RMode: 1440x900, dw 1440, bpp: 32, depth: 24, head=0, base=0x7f6085fb5000
+[   154.583] (info) PRLXINERAMA: Xinerama Virtual Screen 0 (1440x900, x=0, y=0)
+[   154.583] (info) PRLVIDEO: VMode: 1440x900
+[   154.584] (info) PRLVIDEO: Set Crtc 0 video mode (1440x900, x=0, y=0)...
+[   154.584] (info) PRLVIDEO: Mode: 1440x900
+[   154.587] (info) PRLCONTROL: Can't set mode for Head 0
+[   154.834] (info) PRLCONTROL: Window manager detected
+[   154.834] (info) PRLCONTROL: Composite overlay window (DrawPtr=0x5653b09921a0 (id=99)) detected
+[   156.797] (info) PRLVIDEO: Set Crtc 0 video mode (1440x900, x=0, y=0)...
+[   156.797] (info) PRLVIDEO: Mode: 1440x900
+[   156.798] (info) PRLVIDEO: Set Head 0 mode 1440x900
+[   157.239] (info) PRLCONTROL: GLPBuffer(0x5653b09c0c00, hpbuf=5BAB6BB9, pid=2972, GLXDrawPtr=0x5653b09bc600 (id=10485770), DrawPtr=0x5653b09acac0 (id=10485772), PixPtr=0x5653b06809f0, tFmt=20D9, tTgt=20DD) created
+[   157.239] (info) PRLCONTROL: OpenGL Composite overlay detected (DrawPtr=0x5653b09acac0 (id=10485772), GLXDrawPtr=0x5653b09bc600 (id=10485770)).
+[   157.239] (info) PRLCONTROL: OpenGL Compositing enabled.
+[   157.566] (info) PRLCONTROL: User session (userid=3E9) enabled
+[   157.567] (info) PRLVIDEO: Dynamic resolution was enabled
+[   157.567] (info) PRLCONTROL: Dynamic resolution was enabled in user session (userid=3E9)
+[   157.567] (info) PRLVIDEO: Send Max Heads=3 to host
+[   158.198] (info) PRLCONTROL: Coherence plugin enabled (pid=0 userid=0)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE atom (value=112 type=1)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DESKTOP atom (value=169 type=2)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DOCK atom (value=16A type=3)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_TOOLBAR atom (value=16B type=4)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_MENU atom (value=117 type=5)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_UTILITY atom (value=11B type=6)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_SPLASH atom (value=16C type=7)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DIALOG atom (value=114 type=8)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DROPDOWN_MENU atom (value=116 type=9)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_POPUP_MENU atom (value=119 type=10)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_TOOLTIP atom (value=11A type=11)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_NOTIFICATION atom (value=16D type=12)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_COMBO atom (value=113 type=13)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DND atom (value=115 type=14)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_NORMAL atom (value=118 type=15)
+[   159.122] (info) PRLCOHERENCE: _NET_WM_NAME atom (value=102 type=16)
+[   159.122] (info) PRLCOHERENCE: WM_NAME atom (value=27 type=17)
+[   159.122] (info) PRLCOHERENCE: _COMPIZ_WM_WINDOW_BLUR atom (value=206 type=18)
+WARNING: 
+[    10.978] (warning) PRLVIDEO(0): Unable to estimate virtual size
+[    10.993] (warning) PRLVIDEO(0): Option "NoMTRR" is not used
